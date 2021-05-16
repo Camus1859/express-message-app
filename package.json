@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": "v14.17.0"
+  },
   "name": "express-messaging",
   "version": "1.0.0",
   "description": "",
