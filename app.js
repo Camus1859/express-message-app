@@ -2,12 +2,14 @@ const express = require('express');
 const exphbs = require('express-handlebars');
 const PORT = process.env.PORT || 5000;
 const indexRouter = require('./routes/index')
+const newRouter = require('./routes/new')
 const app = express();
 
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 
 app.use('/', indexRouter)
+app.use('/', newRouter)
 
 
 

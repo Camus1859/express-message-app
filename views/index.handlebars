@@ -1,1 +1,20 @@
-<h1>Hello World</h1>
+<h1>{{title}}</h1>
+
+<ul>
+  {{#each messages}}
+  <li>Text: {{this.text}}</li>
+  <li>User:{{this.user}}</li>
+  <li>Date: {{this.added}}</li>
+  {{/each}}
+</ul>
+
+<form action='/new' method="POST">
+
+<label for="name">Name</label>
+<input type="text" name="name">
+
+<label for="text">Text</label>
+<input type="text" name="text">
+<input type="submit" value="Add Text">
+
+</form>
