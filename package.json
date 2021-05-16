@@ -1,0 +1,25 @@
+{
+  "name": "express-messaging",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev":"nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Camus1859/express-message-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Camus1859/express-message-app/issues"
+  },
+  "homepage": "https://github.com/Camus1859/express-message-app#readme",
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "nodemon": "^2.0.7"
+  }
+}
